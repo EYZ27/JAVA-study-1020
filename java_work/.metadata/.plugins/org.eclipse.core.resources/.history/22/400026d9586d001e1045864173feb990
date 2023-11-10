@@ -1,0 +1,14 @@
+package org.comstudy.day02.study;
+
+import java.util.Scanner;
+
+public class Study {
+	
+	static Scanner scan = new Scanner(System.in);
+	
+	
+	public static void main(String[] args) {
+		int score = 
+	}
+	
+}

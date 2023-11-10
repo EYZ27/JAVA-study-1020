@@ -1,0 +1,16 @@
+package org.comstudy.day01.ex02;
+
+import java.util.Scanner;
+
+public class Person {
+	
+	static final Scanner scan = new Scanner(System.in);
+	
+	public static void main(String[] args) {
+		int id;
+		String name;
+		String email;
+		int age;
+	}
+
+}

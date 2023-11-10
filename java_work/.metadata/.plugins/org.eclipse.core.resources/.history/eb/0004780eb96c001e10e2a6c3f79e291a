@@ -1,0 +1,33 @@
+package org.comstudy.day01.ex02;
+
+import java.util.Scanner;
+
+class Person {
+	int id;
+	String name;
+	String email;
+	int age;
+}
+
+public class Hello2 {
+	static Person person = new Person();
+	
+	static final Scanner scan = new Scanner(System.in);
+	static final Scanner scanline = new Scanner(System.in);
+	static final Scanner scanline2 = new Scanner(System.in);
+	
+	public static void main(String[] args) {
+		
+		System.out.print("ID 입력: ");
+		person.id = scan.nextInt();
+		System.out.print("이름 입력: ");
+		person.name = scanline.nextLine();
+		System.out.print("email 입력: ");
+		person.email = scanline2.nextLine();
+		System.out.print("나이 입력: ");
+		person.age = scan.nextInt();
+		System.out.println();
+		
+		System.out.println(person.getClass());
+	}
+}
